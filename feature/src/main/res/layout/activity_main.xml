@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="25dp"
+        android:paddingTop="0dp"
+        android:src="@drawable/majestic_magnificent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:padding="4dp"
+        android:text="meet, greet and relate with majestic stride..."
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:background="@android:color/darker_gray"
+        android:paddingLeft="192dp"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:padding="9dp">
+
+        <ImageView
+            android:id="@+id/locate"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:paddingRight="8dp"
+            android:src="@drawable/location_icon" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_toRightOf="@id/locate"
+            android:text="Everywhere...[mobile internet + You]"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:text="A community driven by empathic liberty"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:background="@android:color/darker_gray"
+        android:paddingLeft="192dp"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="9dp">
+
+        <ImageView
+            android:id="@+id/email"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+
+            android:paddingRight="8dp"
+            android:src="@drawable/email_icon" />
+
+        <TextView
+            android:id="@+id/e_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/email"
+            android:text="makanjuolao@gmail.com"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@id/e_address"
+            android:paddingRight="8dp"
+            android:src="@drawable/telephone_icon" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/phone"
+            android:paddingTop="25dp"
+            android:text="+234 805 939 3341"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Sign up" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>
